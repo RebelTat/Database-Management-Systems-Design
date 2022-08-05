@@ -1,0 +1,34 @@
+{
+  "name": "restaurantapi",
+  "version": "1.0.0",
+  "description": "restaurant api",
+  "main": "api.js",
+  "scripts": {
+    "start": "node api.js",
+    "test": "nodemon api.js",
+    "stop": "node api.stop.js"
+  },
+  "jshintConfig": {
+    "esversion": 10
+  },
+  "keywords": [
+    "cs",
+    "355",
+    "cs355",
+    "proj",
+    "project",
+    "project2"
+  ],
+  "author": "AD",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^10.1.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
