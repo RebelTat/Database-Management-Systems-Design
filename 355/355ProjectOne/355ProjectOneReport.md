@@ -219,8 +219,8 @@
     insert into Sales values('100010','201', 19, '2021-11-13');
     insert into Sales values('100011','003', 22, '2021-12-09');
     
-    insert into Expenses values('200000', 'Electric', 'Utilites', 2000.99, '2021-03-08');
-    insert into Expenses values('200001', 'Electric', 'Utilites', 1092.79, '2021-04-08');
+    insert into Expenses values('200000', 'Electric', 'Utilities', 2000.99, '2021-03-08');
+    insert into Expenses values('200001', 'Electric', 'Utilities', 1092.79, '2021-04-08');
     insert into Expenses values('200005', 'Food Tax', 'Taxes', 90.99, '2021-05-03');
     insert into Expenses values('200002', 'Employees', 'Wages', 700.99, '2021-05-02');
     insert into Expenses values('200006', 'Food Tax', 'Taxes', 90.99, '2021-10-03');
@@ -474,8 +474,8 @@
 
 | ExpensesID | nameExpenses | catagory | amount  | dateSpent  |
 | ---------- | ------------ | -------- | ------- | ---------- |
-| 200000     | Electric     | Utilites | 2000.99 | 2021-03-08 |
-| 200001     | Electric     | Utilites | 1092.79 | 2021-04-08 |
+| 200000     | Electric     | Utilities | 2000.99 | 2021-03-08 |
+| 200001     | Electric     | Utilities | 1092.79 | 2021-04-08 |
 | 200002     | Employees    | Wages    | 700.99  | 2021-05-02 |
 | 200003     | Lawsuit      | Law      | 90.99   | 2021-07-28 |
 | 200004     | Food Tax     | Taxes    | 90.99   | 2021-12-25 |
